@@ -145,3 +145,15 @@ Using this in online matches violates Valve's ToS and WILL result in a VAC ban.
 ## 📜 License
 
 MIT
+
+---
+
+## ☕ Поддержать проект / Support
+
+Если проект оказался полезным — можешь сказать спасибо:
+
+[![Donate](https://img.shields.io/badge/DonationAlerts-Support-orange?style=for-the-badge)](https://www.donationalerts.com/r/ctrajok)
+
+**https://www.donationalerts.com/r/ctrajok**
+
+Любая сумма мотивирует продолжать разработку и добавлять новые функции. Спасибо!
