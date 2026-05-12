@@ -45,6 +45,11 @@ Internal DLL для Counter-Strike 2 с overlay-отрисовкой. Инжек
 ### ⚠️ Известные проблемы
 - **Skin Changer** — нестабильный, может работать некорректно или крашить
 - **Bone ESP** — использует MST-алгоритм вместо фиксированных индексов костей. После перехода CS2 на Animgraph 2 (апрель 2026) скелет может отображаться неточно на некоторых моделях агентов
+- **Jump-Duck** — работает нестабильно, может не срабатывать в некоторых ситуациях
+
+### 📌 Статус проекта
+
+Проект больше не планируется активно обновлять. Возможно выйдут обновления, но это не гарантировано. Исходный код открыт — можете форкнуть и дорабатывать самостоятельно.
 
 ### Обновление оффсетов
 
@@ -92,6 +97,11 @@ Internal DLL for Counter-Strike 2 with overlay rendering. Injected into cs2.exe 
 ### ⚠️ Known Issues
 - **Skin Changer** — unstable, may not work correctly or cause crashes
 - **Bone ESP** — uses MST algorithm instead of hardcoded bone indices. May display inaccurately on some agent models after Animgraph 2 update
+- **Jump-Duck** — unstable, may not trigger in some situations
+
+### 📌 Project Status
+
+This project is no longer actively maintained. Updates may come but are not guaranteed. Source code is open — feel free to fork and develop further.
 
 ### Updating Offsets
 
