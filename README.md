@@ -1,5 +1,9 @@
 # OxranaLoutabaClient-Dll-CS2
 
+[![YouTube](https://img.shields.io/badge/YouTube-ctraj0k-red?style=for-the-badge&logo=youtube)](https://youtube.com/@ctraj0k)
+[![Telegram](https://img.shields.io/badge/Telegram-Ctrteam1337-blue?style=for-the-badge&logo=telegram)](https://t.me/Ctrteam1337)
+[![Donate](https://img.shields.io/badge/DonationAlerts-Поддержать-orange?style=for-the-badge)](https://www.donationalerts.com/r/ctrajok)
+
 > ⚠️ **EDUCATIONAL PURPOSE ONLY** | **FOR RESEARCH AND LEARNING ONLY**
 
 > 🤖 **100% VIBECODED** — Весь проект написан с помощью AI (vibe coding). Ни одна строка не была написана вручную. Качество кода соответствующее.
@@ -163,7 +167,9 @@ MIT
 Если проект оказался полезным — можешь сказать спасибо:
 
 [![Donate](https://img.shields.io/badge/DonationAlerts-Support-orange?style=for-the-badge)](https://www.donationalerts.com/r/ctrajok)
+[![YouTube](https://img.shields.io/badge/YouTube-ctraj0k-red?style=for-the-badge&logo=youtube)](https://youtube.com/@ctraj0k)
+[![Telegram](https://img.shields.io/badge/Telegram-Ctrteam1337-blue?style=for-the-badge&logo=telegram)](https://t.me/Ctrteam1337)
 
-**https://www.donationalerts.com/r/ctrajok**
+**Донат:** https://www.donationalerts.com/r/ctrajok
 
 Любая сумма мотивирует продолжать разработку и добавлять новые функции. Спасибо!
