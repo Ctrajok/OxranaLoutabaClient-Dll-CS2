@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a9dc7eb8-cffd-43e5-a02c-224697ff5d4c}</ProjectGuid>
+    <RootNamespace>OXRANALOUATABACLIENT</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>OXRANALOUATABACLIENT</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>OXRANALOUATABACLIENT</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>OXRANALOUATABACLIENT</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>OXRANALOUATABACLIENT</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;OXRANALOUATABACLIENT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;OXRANALOUATABACLIENT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;OXRANALOUATABACLIENT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;OXRANALOUATABACLIENT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="OXRANALOUATABACLIENT.h" />
+    <ClInclude Include="PatternScan.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="resource.h" />
+    <!-- Core Module -->
+    <ClInclude Include="core\core_types.hpp" />
+    <ClInclude Include="core\core_d3d.hpp" />
+    <ClInclude Include="core\core_window.hpp" />
+    <ClInclude Include="core\core_render.hpp" />
+    <!-- Memory Module -->
+    <ClInclude Include="memory\memory_offsets.hpp" />
+    <ClInclude Include="memory\memory_utils.hpp" />
+    <ClInclude Include="memory\memory_client.hpp" />
+    <!-- Hooks Module -->
+    <ClInclude Include="hooks\hooks_manager.hpp" />
+    <ClInclude Include="hooks\hooks_createmove.hpp" />
+    <ClInclude Include="hooks\hooks_framestage.hpp" />
+    <!-- Combat Module -->
+    <ClInclude Include="combat\combat_common.hpp" />
+    <ClInclude Include="combat\combat_aimbot.hpp" />
+    <ClInclude Include="combat\combat_triggerbot.hpp" />
+    <ClInclude Include="combat\combat_recoil.hpp" />
+    <ClInclude Include="combat\combat_spread.hpp" />
+    <ClInclude Include="combat\combat_autostop.hpp" />
+    <ClInclude Include="combat\combat_autoknife.hpp" />
+    <!-- ESP Module -->
+    <ClInclude Include="esp\esp_common.hpp" />
+    <ClInclude Include="esp\esp_box.hpp" />
+    <ClInclude Include="esp\esp_name.hpp" />
+    <ClInclude Include="esp\esp_health.hpp" />
+    <ClInclude Include="esp\esp_weapon.hpp" />
+    <ClInclude Include="esp\esp_bones.hpp" />
+    <ClInclude Include="esp\esp_snaplines.hpp" />
+    <ClInclude Include="esp\esp_distance.hpp" />
+    <ClInclude Include="esp\esp_oof_arrows.hpp" />
+    <ClInclude Include="esp\esp_bomb.hpp" />
+    <ClInclude Include="esp\esp_damage.hpp" />
+    <ClInclude Include="esp\esp_spectators.hpp" />
+    <!-- Movement Module -->
+    <ClInclude Include="movement\movement_bhop.hpp" />
+    <ClInclude Include="movement\movement_strafe.hpp" />
+    <ClInclude Include="movement\movement_jumpduck.hpp" />
+    <!-- Player Module -->
+    <ClInclude Include="player\player_antiflash.hpp" />
+    <ClInclude Include="player\player_fov.hpp" />
+    <ClInclude Include="player\player_chams.hpp" />
+    <ClInclude Include="player\player_nosmoke.hpp" />
+    <!-- UI Module -->
+    <ClInclude Include="ui\ui_menu.hpp" />
+    <ClInclude Include="ui\ui_watermark.hpp" />
+    <ClInclude Include="ui\ui_keybinds.hpp" />
+    <ClInclude Include="ui\ui_theme.hpp" />
+    <ClInclude Include="ui\ui_cyber_widgets.hpp" />
+    <ClInclude Include="ui\ui_style.hpp" />
+    <ClInclude Include="ui\ui_widgets.hpp" />
+    <!-- Config Module -->
+    <ClInclude Include="config\config_vars.hpp" />
+    <ClInclude Include="config\config_manager.hpp" />
+    <!-- Skins Module -->
+    <ClInclude Include="skins\skins_weapons.hpp" />
+    <ClInclude Include="skins\skins_config.hpp" />
+    <ClInclude Include="skins\skins_apply.hpp" />
+    <!-- Radar Module -->
+    <ClInclude Include="radar\radar_hack.hpp" />
+    <ClInclude Include="radar\radar_render.hpp" />
+    <!-- Audio Module -->
+    <ClInclude Include="audio\audio_hitsound.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ui\ui_legacy.cpp" />
+    <ClCompile Include="PatternScan.cpp" />
+    <ClCompile Include="memory\memory_utils.cpp" />
+    <ClCompile Include="memory\memory_client.cpp" />
+    <ClCompile Include="memory\memory_offsets.cpp" />
+    <ClCompile Include="config\config_vars.cpp" />
+    <ClCompile Include="config\config_manager.cpp" />
+    <ClCompile Include="hooks\hooks_manager.cpp" />
+    <ClCompile Include="combat\combat_common.cpp" />
+    <ClCompile Include="combat\combat_aimbot.cpp" />
+    <ClCompile Include="combat\combat_triggerbot.cpp" />
+    <ClCompile Include="combat\combat_recoil.cpp" />
+    <ClCompile Include="combat\combat_spread.cpp" />
+    <ClCompile Include="combat\combat_autostop.cpp" />
+    <ClCompile Include="combat\combat_autoknife.cpp" />
+    <ClCompile Include="esp\esp_common.cpp" />
+    <ClCompile Include="esp\esp_box.cpp" />
+    <ClCompile Include="esp\esp_name.cpp" />
+    <ClCompile Include="esp\esp_health.cpp" />
+    <ClCompile Include="esp\esp_weapon.cpp" />
+    <ClCompile Include="esp\esp_bones.cpp" />
+    <ClCompile Include="esp\esp_snaplines.cpp" />
+    <ClCompile Include="esp\esp_distance.cpp" />
+    <ClCompile Include="esp\esp_oof_arrows.cpp" />
+    <ClCompile Include="esp\esp_bomb.cpp" />
+    <ClCompile Include="esp\esp_damage.cpp" />
+    <ClCompile Include="esp\esp_spectators.cpp" />
+    <ClCompile Include="movement\movement_bhop.cpp" />
+    <ClCompile Include="movement\movement_strafe.cpp" />
+    <ClCompile Include="movement\movement_jumpduck.cpp" />
+    <ClCompile Include="player\player_antiflash.cpp" />
+    <ClCompile Include="player\player_fov.cpp" />
+    <ClCompile Include="player\player_chams.cpp" />
+    <ClCompile Include="player\player_nosmoke.cpp" />
+    <ClCompile Include="skins\skins_weapons.cpp" />
+    <ClCompile Include="skins\skins_config.cpp" />
+    <ClCompile Include="skins\skins_apply.cpp" />
+    <ClCompile Include="radar\radar_hack.cpp" />
+    <ClCompile Include="radar\radar_render.cpp" />
+    <ClCompile Include="audio\audio_hitsound.cpp" />
+    <ClCompile Include="ui\ui_widgets.cpp" />
+    <ClCompile Include="ui\ui_style.cpp" />
+    <ClCompile Include="ui\ui_menu.cpp" />
+    <ClCompile Include="ui\ui_watermark.cpp" />
+    <ClCompile Include="ui\ui_keybinds.cpp" />
+    <ClCompile Include="ui\ui_theme.cpp" />
+    <ClCompile Include="ui\ui_cyber_widgets.cpp" />
+    <ClCompile Include="core\core_d3d.cpp" />
+    <ClCompile Include="core\core_window.cpp" />
+    <ClCompile Include="core\core_render.cpp" />
+    <ClCompile Include="core\core_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fonts\font.otf" />
+    <None Include="assets\settings.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
