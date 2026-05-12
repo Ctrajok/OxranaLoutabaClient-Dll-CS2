@@ -83,6 +83,10 @@ Internal DLL для Counter-Strike 2 с overlay-отрисовкой. Инжек
 
 ## 🇬🇧 Description (EN)
 
+[![YouTube](https://img.shields.io/badge/YouTube-ctraj0k-red?style=flat-square&logo=youtube)](https://youtube.com/@ctraj0k)
+[![Telegram](https://img.shields.io/badge/Telegram-Ctrteam1337-blue?style=flat-square&logo=telegram)](https://t.me/Ctrteam1337)
+[![Donate](https://img.shields.io/badge/DonationAlerts-Support-orange?style=flat-square)](https://www.donationalerts.com/r/ctrajok)
+
 Internal DLL for Counter-Strike 2 with overlay rendering. Injected into cs2.exe process, reads game memory directly through offsets, renders overlay via a separate transparent window (D3D11 + ImGui).
 
 ### Key Points
